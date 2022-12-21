@@ -19,19 +19,27 @@ def countdown(loopCount: int):
 
 def main():
     argumentParser = argparse.ArgumentParser()
+    argumentParser.add_argument("--delay", "-d", type=str)
     argumentParser.add_argument("--script", "-s", type=str)
     arguments = argumentParser.parse_args()
+
+    if arguments.delay is None:
+        argumentParser.print_help()
+        sys.exit(1)
+    elif arguments.script is None:
+        argumentParser.print_help()
+        sys.exit(1)
 
     scriptFile = open(str(arguments.script), "r")
     script = scriptFile.read()
 
     print(":: Starting loop in...")
 
-    countdown(2)
+    countdown(3)
     print("\r:: Started loop.")
 
     while True:
-        countdown(1)
+        countdown(int(arguments.delay))
         print(f"\r:: [   ]", end="")
 
         subprocessTask = subprocess.run(script, shell=True, stdout=PIPE, stderr=PIPE)
