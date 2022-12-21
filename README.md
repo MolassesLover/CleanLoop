@@ -18,7 +18,7 @@ script is chosen to loop, with a delay between loops of
 
 ## Installation
 
-The [`src/cli.py`](https://github.com/MolassesLover/CleanLoop/blob/master/test/test.sh) can be installed as the
+The [`src/cli.py`](https://github.com/MolassesLover/CleanLoop/blob/master/test/test.sh) file can be installed as the
 `clean-loop` command using `pip`.
 
 You can install it from [GitHub](https://github.com/MolassesLover/CleanLoop):
