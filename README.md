@@ -9,7 +9,7 @@ every given number of seconds.
 
 ## Usage
 
-In this example, the [`test/test.sh`](https://github.com/MolassesLover/Crpyt/tree/master/test/test.sh)
+In this example, the [`test/test.sh`](https://github.com/MolassesLover/CleanLoop/tree/master/test/test.sh)
 script is chosen to loop, with a delay between loops of 
 3 seconds.
 ```sh
@@ -21,16 +21,16 @@ script is chosen to loop, with a delay between loops of
 The [`src/cli.py`](https://github.com/MolassesLover/CleanLoop/blob/master/test/test.sh) can be installed as the
 `clean-loop` command using `pip`.
 
-You can install it from [GitHub](https://github.com/MolassesLover/Crpyt):
+You can install it from [GitHub](https://github.com/MolassesLover/CleanLoop):
 ```sh
-➜ pip install git+https://github.com/MolassesLover/Crpyt.git
+➜ pip install git+https://github.com/MolassesLover/CleanLoop.git
 ```
-Alternatively, from [PyPi](https://pypi.org/project/crpyt):
+Alternatively, from [PyPi](https://pypi.org/project/clean-loop):
 ```sh
-➜ pip install crpyt
+➜ pip install clean-loop
 ```
 
 ## License
 All files within this repository are licensed under the 
-[Apache v2.0 license](https://github.com/MolassesLover/Crpyt/blob/master/LICENSE-APACHE.md) or 
-[MIT license](https://github.com/MolassesLover/Crpyt/blob/master/LICENSE-MIT.md) at your choice. 
+[Apache v2.0 license](https://github.com/MolassesLover/CleanLoop/blob/master/LICENSE-APACHE.md) or 
+[MIT license](https://github.com/MolassesLover/CleanLoop/blob/master/LICENSE-MIT.md) at your choice. 
