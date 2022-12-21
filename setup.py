@@ -23,7 +23,7 @@ setup(
     license="MIT",
     entry_points={
         "console_scripts": [
-            "clean_loop = clean_loop.cli:main",
+            "clean-loop = clean_loop.cli:main",
         ]
     },
 )
